@@ -2,11 +2,12 @@ import flet as ft
 
 def main(page: ft.Page):
     page.title = "الحاسبة الصحية الشاملة"
-    page.vertical_alignment = ft.MainAxisAlignment.CENTER
-    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+    page.horizontal_alignment = "center"
+    page.vertical_alignment = "center"
     page.window.width = 390
     page.window.height = 700
     page.scroll = "auto"
+    page.padding = 20
     page.window.resizable = False
 
     # ---------- الصفحة الرئيسية ----------
